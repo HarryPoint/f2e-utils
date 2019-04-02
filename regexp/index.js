@@ -1,5 +1,13 @@
 // 正则表达式
 module.exports = {
+    // 添加扩展功能
+    config (obj) {
+        Object.keys(obj).map(key => {
+            if(this[key] === undefined) {
+                this[key] = {...obj[key]}
+            }
+        })
+    },
     // 用户名: 4到16位（字母，数字，下划线，减号）
     userName: {
         pattern: /^[a-zA-Z0-9_-]{4,16}$/,
