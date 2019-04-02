@@ -1,0 +1,23 @@
+{
+  "name": "f2e-utils",
+  "version": "1.0.0",
+  "description": "f2e utils",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HarryPoint/f2e-utils.git"
+  },
+  "keywords": [
+    "f2e",
+    "utils"
+  ],
+  "author": "HarryPoint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarryPoint/f2e-utils/issues"
+  },
+  "homepage": "https://github.com/HarryPoint/f2e-utils#readme"
+}
