@@ -4,7 +4,7 @@ module.exports = {
     config (obj) {
         Object.keys(obj).map(key => {
             if(this[key] === undefined) {
-                this[key] = {...obj[key]}
+                this[key] = {pattern: obj[key].pattern, message: obj[key].message}
             }
         })
     },
