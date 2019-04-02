@@ -11,6 +11,7 @@
     "url": "git+ssh://git@github.com/HarryPoint/f2e-utils.git"
   },
   "keywords": [
+    "f2e-utils",
     "f2e",
     "utils"
   ],
